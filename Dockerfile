@@ -1,6 +1,6 @@
 FROM fedora:36
 
-MAINTAINER Paul Podgorsek <ppodgorsek@users.noreply.github.com>
+MAINTAINER Csaba Gajdos <GCsabi@users.noreply.github.com>
 LABEL description Robot Framework in Docker.
 
 # Set the reports directory environment variable
@@ -38,7 +38,7 @@ ENV DATABASE_LIBRARY_VERSION 1.2.4
 ENV DATADRIVER_VERSION 1.6.0
 ENV DATETIMETZ_VERSION 1.0.6
 ENV FAKER_VERSION 5.0.0
-ENV FIREFOX_VERSION 98.0
+ENV FIREFOX_VERSION 104.0
 ENV FTP_LIBRARY_VERSION 1.9
 ENV GECKO_DRIVER_VERSION v0.30.0
 ENV IMAP_LIBRARY_VERSION 0.4.2
